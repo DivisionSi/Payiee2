@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cansis.saad.payiee.Home">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        tools:context="com.cansis.saad.payiee.Home"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout">
+
+        <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/gridView1"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:columnWidth="50dp"
+            android:gravity="center_horizontal"
+            android:horizontalSpacing="10dp"
+            android:numColumns="3"
+            android:stretchMode="spacingWidthUniform"
+            android:textAlignment="gravity"
+            android:verticalSpacing="10dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="48dp" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/txtCharge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Rs 0"
+        android:textColor="@android:color/white"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/txtTemporary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:text="Rs 0"
+        android:textSize="30sp" />
+</RelativeLayout>

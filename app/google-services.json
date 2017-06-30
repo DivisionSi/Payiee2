@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "560466766288",
+    "firebase_url": "https://payiee-1cf07.firebaseio.com",
+    "project_id": "payiee-1cf07",
+    "storage_bucket": "payiee-1cf07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560466766288:android:a618cae92a8c23ac",
+        "android_client_info": {
+          "package_name": "com.cansis.saad.payiee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "560466766288-0u84c51ivup9uev9a0rlvtit3lekoqv2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cansis.saad.payiee",
+            "certificate_hash": "29e136158314d1c6f720c07716a279eb6fff7bd0"
+          }
+        },
+        {
+          "client_id": "560466766288-cbo6udn99p9780ote9esm3nno79sasqs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnLVwZ0sGs4zA1VzDGBUfW4_m6mnuodx8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "560466766288-cbo6udn99p9780ote9esm3nno79sasqs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
